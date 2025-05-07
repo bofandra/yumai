@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baby & Kidswear Yum-Ai</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+    header { background: #ffb6c1; padding: 20px; text-align: center; }
+    header h1 { margin: 0; color: #fff; }
+    .catalog { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; padding: 20px; }
+    .product { background: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; padding: 10px; }
+    .product img { max-width: 100%; border-radius: 8px; }
+    .product h2 { font-size: 1.1em; margin: 10px 0; }
+    .product a { display: inline-block; margin-top: 10px; padding: 10px 15px; background: #ff69b4; color: #fff; border-radius: 5px; text-decoration: none; }
+    footer { text-align: center; padding: 20px; background: #ffb6c1; color: #fff; }
+  </style>
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'YOUR_PIXEL_ID'); // Replace with your Pixel ID
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+</head>
+<body>
+  <header>
+    <h1>Baby & Kidswear Yum-Ai</h1>
+    <p>Adorable clothes for your little ones!</p>
+  </header>
+
+  <section class="catalog">
+    <div class="product">
+      <img src="images/catalog1.jpg" alt="Product 1">
+      <h2>Soft Cotton Romper</h2>
+      <a href="https://shopee.com/yourproduct1" target="_blank">Shop on Shopee</a>
+    </div>
+    <div class="product">
+      <img src="images/catalog2.jpg" alt="Product 2">
+      <h2>Cozy Baby Blanket</h2>
+      <a href="https://shopee.com/yourproduct2" target="_blank">Shop on Shopee</a>
+    </div>
+    <div class="product">
+      <img src="images/catalog3.jpg" alt="Product 3">
+      <h2>Kidswear T-Shirt Set</h2>
+      <a href="https://shopee.com/yourproduct3" target="_blank">Shop on Shopee</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Baby & Kidswear Yum-Ai. All rights reserved.
+  </footer>
+</body>
+</html>
