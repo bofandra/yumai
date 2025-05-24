@@ -18,6 +18,25 @@
     .product p { font-size: 0.95em; color: #333; margin: 10px 0; }
     .product a { display: inline-block; margin-top: 10px; padding: 10px 15px; background: #ff69b4; color: #fff; border-radius: 5px; text-decoration: none; }
     footer { text-align: center; padding: 20px; background: #ffb6c1; color: #fff; }
+
+    /* Floating WhatsApp Button */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: #fff;
+      border-radius: 50px;
+      padding: 12px 16px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+    }
+    .whatsapp-float:hover {
+      background-color: #1ebe5b;
+    }
   </style>
   <!-- Meta Pixel Code -->
   <script>
@@ -64,6 +83,8 @@
       <a href="https://shopee.co.id/product/19852979/28036513112" target="_blank" onclick="fbq('track', 'ShopLinkClick', {product: 'Product-3'});">Shop on Shopee</a>
     </div>
   </section>
+
+  <a href="https://wa.me/6287775974904" class="whatsapp-float" target="_blank">Chat via WhatsApp</a>
 
   <footer>
     &copy; 2025 Baby & Kidswear Yum-Ai. All rights reserved.
